@@ -17,7 +17,7 @@ public class RegistryFilter  extends ZuulFilter {
     @Autowired
     private RequestService requestService;
     @Autowired
-    RequestContextToRequestConverter requestContextToRequestConverter;
+    private RequestContextToRequestConverter requestContextToRequestConverter;
 
     public RegistryFilter() {
         log.info("RegistryFilter created");
